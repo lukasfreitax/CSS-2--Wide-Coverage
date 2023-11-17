@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    padding: 30px 0 ;
+    margin-left: 42px;
+}
+
+.link-menu {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+    line-height: 21px;
+    letter-spacing: 0.88px;
+    color: #17233D;
+    margin-right: 32px;
+}
+
+.button-signup {
+    width: 124px;
+    height: 51px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    color: #FFFFFF;
+    background: #6FBF44;
+    cursor: pointer;
+}
+
+.button-signup:hover {
+    background: #60a63a;
+    border: 1px solid #4CB538
+}
+
+.container-main {
+    margin-left: 121px;
+    margin-top: 100px;
+}
+.image-main {
+    width: 595px;
+    height: 500px;
+    display: inline-block;    
+}
+
+.info-main {
+    width: 493px;
+    margin-left: 70px;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    color: #161A49;
+}
+
+p {
+    font-size: 18px;
+    font-family: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin: 24px 0;
+}
+
+.link-learn-more {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #6FBF44;
+}
+
+.link-learn-more:hover {
+    text-decoration: underline;
+    color: #4CB538;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1366px) {
+    nav {
+        padding: 16px 0 ;
+    }
+    .container-main {        
+        margin-left: 70px;
+        margin-top: 40px;        
+    }
+}
+    
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .container-main {
+        width: 100%;
+        margin: 0;        
+    }
+
+    .image-main {
+        height: auto;       
+        margin: 30px auto;
+        display: block;        
+    }
+
+    .info-main {        
+        margin: 30px auto;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 767px){
+    nav {
+        margin: 0;
+        padding: 30px 20px;        
+    }
+
+    .button-signup {
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+        
+    }
+
+    .container-main {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 80px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-main {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+        order: 2;
+    }
+
+    .info-main {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+        order: 1;
+    }
+
+    h1 {
+        font-size: 30px;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    p {
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .link-learn-more {        
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .link-menu {
+        display: none;
+    }
+
+    .button-signup {
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+
+    .container-main {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-main {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+        order: 2;
+    }
+
+    .info-main {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+        order: 1;
+    }
+
+    h1 {
+        font-size: 30px;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    p {
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .link-learn-more {        
+        display: block;
+        margin-bottom: 20px;
+    }
+}
